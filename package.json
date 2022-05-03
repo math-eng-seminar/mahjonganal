@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "rename": "mv build docs",
+    "rename": "rm -rf docs && mv build docs && touch docs/.nojekyll",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
