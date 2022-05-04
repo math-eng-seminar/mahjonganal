@@ -1,8 +1,7 @@
 name: eslint
 on:
   pull_request:
-    branches: 
-      - [dev]
+    branches: [dev]
 jobs:
   eslint:
     name: linter
