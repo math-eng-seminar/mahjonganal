@@ -1,4 +1,4 @@
-name: Run ESLint to /src
+name: eslint
 on:
   pull_request:
     branches: 
